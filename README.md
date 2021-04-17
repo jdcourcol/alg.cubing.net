@@ -1,4 +1,9 @@
 # alg.cubing.net
+## Comment:
+
+exactly the same, except submodules are added to this repository and yellow face is up to ease reviewing replays.
+
+
 
 The new generation of alg/reconstruction viewing and sharing.  
 Built on [`alg.js`](https://github.com/cubing/alg.js) and [`twisty.js`](https://github.com/cubing/twisty.js).
