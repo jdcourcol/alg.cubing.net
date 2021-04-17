@@ -145,8 +145,8 @@ twisty.scene = function(options) {
     model.position = 0;
     model.preMoveList = [];
     model.moveList = [];
-
-    model.twisty = createTwisty(twistyType);
+      model.twisty = createTwisty(twistyType);
+      model.twisty["3d"].rotateX(Math.PI); 
     view.scene.add(model.twisty["3d"]);
 
     that.resize();
